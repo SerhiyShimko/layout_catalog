@@ -1,9 +1,9 @@
 .main {
-  margin: 50px 40px;
+  margin: 50px 128px;
   display: grid;
+  place-content: center center;
   grid-template-columns: 1fr;
   gap: 46px 48px;
-  place-content: center center;
 
   @media (min-width: 488px) {
     grid-template-columns: repeat(2, 1fr);
